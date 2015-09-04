@@ -1577,9 +1577,11 @@ button:hover {
 /* ---- CONTACT US ----*/
 
 #footer {
+	position: absolute;
 	width: 100%;
 	height: 50%;
 	background-color: black;
+	padding-top: 1px;
 	}
 
 #footer #CONTACT_ME{
@@ -1837,7 +1839,9 @@ section {
 
 
 .contact_form {
-	margin-bottom: 7px;
+	position: relative;
+	margin-top: 10px;
+
 }
 
 ::-webkit-input-placeholder {
@@ -1849,4 +1853,17 @@ section {
 ::-webkit-placeholder {
    color: rgba(0,5,143,.5);
    text-transform: uppercase;
+}
+
+/*#map-section {
+
+	width: auto;
+	length: 200px;
+}*/
+
+#map-section  {
+	padding-bottom: 65.25%;
+	padding-top: 30px;
+	height: 500px;
+	overflow: hidden;
 }
