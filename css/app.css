@@ -988,13 +988,10 @@ div 9{
 	height: auto;
 	width:80%;
 	background:#4eaab0;
-	/* position: fixed;
-	left:auto;
-	top:auto;*/
+
 	border-radius: 15px;
 	margin: auto;
 	font-family: 'Bitter', 'Trebuchet MS', Cambria;
-	/*z-index: 5;*/
 	text-align: justify;
 }
 
