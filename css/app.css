@@ -985,30 +985,41 @@ div 9{
 }
 
 .rectangle1{
-	height:auto;
+	height: auto;
 	width:80%;
 	background:#4eaab0;
-	position:center;
-	left:auto;
-	top:auto;
+
 	border-radius: 15px;
 	margin: auto;
 	font-family: 'Bitter', 'Trebuchet MS', Cambria;
-	z-index: 5;
 	text-align: justify;
 }
 
-.circle {
-	height:250;
-	width:250;
+
+
+.regional-director {
+	width: 100%;
+	position: relative;
+}
+
+.description {
+	width: 100%;
+	-webkit-column-count: 2;
+  -moz-column-count: 2;
+  column-count: 2;
+}
+
+.circle-img {
+	display: block;
+	height:240;
+	width:240;
 	border-radius:50%;
-	position:absolute;
+	/*position:absolute;*/
 	color: #fff;
 	margin-top: -135px;
 	margin-left: 80px;
-	overflow: visable;
-	z-index: 8;
-	display:absolute;
+	overflow: visible;
+	float: left;
 }
 
 .lenzo {
@@ -1027,12 +1038,12 @@ div 9{
 
 .lefttext {
 	font-family: 'Bitter', 'Trebuchet MS', Cambria;
-	font-size: 15px;
+	font-size: 16px;
 	text-transform: uppercase;
 	color: #ffffff;
 	text-align: justify;
 	width: 100%;
-	height: 60%;
+	/*height: 60%;*/
 }
 
 .righttext {
@@ -1041,7 +1052,7 @@ div 9{
 	text-transform: uppercase;
 	color: #ffffff;
 	text-align: justify;
-	width: 125%;
+	width: 100%;
 }
 
 /*----- AVAILABLE POSITIONS -----*/
@@ -1577,9 +1588,11 @@ button:hover {
 /* ---- CONTACT US ----*/
 
 #footer {
+	position: absolute;
 	width: 100%;
 	height: 50%;
 	background-color: black;
+	padding-top: 1px;
 	}
 
 #footer #CONTACT_ME{
@@ -1837,7 +1850,9 @@ section {
 
 
 .contact_form {
-	margin-bottom: 7px;
+	position: relative;
+	margin-top: 10px;
+
 }
 
 ::-webkit-input-placeholder {
@@ -1849,4 +1864,17 @@ section {
 ::-webkit-placeholder {
    color: rgba(0,5,143,.5);
    text-transform: uppercase;
+}
+
+/*#map-section {
+
+	width: auto;
+	length: 200px;
+}*/
+
+#map-section  {
+	padding-bottom: 65.25%;
+	padding-top: 30px;
+	height: 500px;
+	overflow: hidden;
 }
